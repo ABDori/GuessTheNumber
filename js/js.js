@@ -68,7 +68,6 @@ gameStarter.addEventListener('click',function(){
                   return;
             }
             else {
-                  alert("введено число " + numberGuessed + " ,а загадано число " + number);
                   stringDisplay.textContent = number + " You missed, Game Over!";
                   score.textContent = 0;
                   document.querySelector(".starter_window").classList.toggle("invisible");
